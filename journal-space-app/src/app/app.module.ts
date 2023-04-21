@@ -7,7 +7,8 @@ import { TestComponent } from './test/test.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
-import { MatButtonModule } from '@angular/material/button';
+import { MaterialModule } from './material/material.module';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,7 @@ import { MatButtonModule } from '@angular/material/button';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSlideToggleModule,
-    MatButtonModule
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
